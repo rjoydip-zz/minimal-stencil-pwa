@@ -1,8 +1,8 @@
 {
-  "name": "minimum-stencil-pwa",
+  "name": "minimal-stencil-pwa",
   "private": true,
   "version": "0.0.1",
-  "description": "Minimum Stencil PWA App Starter",
+  "description": "Minimal Stencil PWA App Starter",
   "scripts": {
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",

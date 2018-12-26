@@ -12,6 +12,6 @@ describe('app-root', () => {
     const page = await newE2EPage({ url: '/'});
 
     const element = await page.find('app-root >>> h1');
-    expect(element.textContent).toEqual('Minimum Stencil PWA Starter');
+    expect(element.textContent).toEqual('Minimal Stencil PWA Starter');
   });
 });

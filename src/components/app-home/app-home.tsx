@@ -11,7 +11,7 @@ export class AppHome {
     return (
       <div class='app-home'>
         <p>
-          Welcome to the Minimum Stencil PWA.
+          Welcome to the Minimal Stencil PWA.
           You can use this starter to build entire apps all with
           web components using Stencil!
           Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.

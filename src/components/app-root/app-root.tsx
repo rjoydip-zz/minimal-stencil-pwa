@@ -12,7 +12,7 @@ export class AppRoot {
     return (
       <div>
         <header>
-          <h1>Minimum Stencil PWA Starter</h1>
+          <h1>Minimal Stencil PWA Starter</h1>
         </header>
 
         <main>
