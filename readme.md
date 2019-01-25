@@ -2,6 +2,10 @@
 
 Minimum Stencil PWA App Starter
 
+# Demo
+
+[Minimum Stencil PWA](https://amazing-elion-2ef9a0.netlify.com)
+
 ## Getting Started
 
 ```bash

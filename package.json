@@ -7,6 +7,7 @@
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
+    "test:screenshot": "stencil test --spec --e2e --screenshot",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "clean": "rimraf public",
     "prepare": "npm-run-all --serial clean test build",
