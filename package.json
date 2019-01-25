@@ -1,0 +1,31 @@
+{
+  "name": "minimum-stencil-pwa",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Minimum Stencil PWA App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "clean": "rimraf public",
+    "prepare": "npm-run-all --serial clean test build",
+    "serve": "npm-run-all --serial prepare && serve -d public",
+    "deploy": "npm-run-all --serial prepare "
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "devDependencies": {
+    "@stencil/core": "^0.17.0",
+    "@stencil/router": "^0.3.3",
+    "@types/jest": "23.3.13",
+    "@types/puppeteer": "1.11.1",
+    "jest": "23.6.0",
+    "jest-cli": "23.6.0",
+    "npm-run-all": "^4.1.5",
+    "puppeteer": "1.11.0",
+    "rimraf": "^2.6.3",
+    "serve": "^10.1.1",
+    "workbox-build": "3.4.1"
+  }
+}
